@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: absolute;
 
     width: 1440px;
     height: 60px;
@@ -27,7 +27,6 @@ ul {
 
 li {
     color: white;
-    position: relative;
     transition: .5s;
 }
 
@@ -87,7 +86,7 @@ input[type="checkbox"]:checked ~ footer {
 /* logo-name */
 
 .left-side_logo-name {
-    position: absolute;
+    position: fixed;
 
     width: 200px;
     height: 40px;
@@ -101,6 +100,7 @@ input[type="checkbox"]:checked ~ footer {
 }
 
 .left-side_logo-name img {
+    
     width: 48px;
     height: 40px;
 }
@@ -116,10 +116,12 @@ input[type="checkbox"]:checked ~ footer {
         height: 1000px;
     }
     .left-side_logo-name {
+        position: fixed;
         top: 35px;
         left: 30px;
     }
     input[type="checkbox"], .mask {
+        position: fixed;
         visibility: visible;
         left: 80%;
     }
@@ -142,8 +144,5 @@ input[type="checkbox"]:checked ~ footer {
         text-align: center;
         color: white;
         left: -350px;
-    }
-    html, body {
-        overflow-x: hidden;
     }
 }
