@@ -21,19 +21,20 @@ ul {
     font-weight: 400;
     font-size: 25px;
 
-    transform: translate(0.3s);
-    transition: 0.3s;
+    transform: translate(0.5s);
+    transition: 0.5s;
 }
 
 li {
     color: white;
     position: relative;
+    transition: .5s;
 }
 
-ul, li:hover {
-    
+ul li:hover{
+    background:#C778DD;
+    transition: .5s;
 }
-
 
 input[type="checkbox"] {
     position: absolute;
