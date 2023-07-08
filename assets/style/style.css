@@ -15,7 +15,7 @@ html, body {
 }
 
 .left-side_logo-name {
-    position: fixed;
+    position: relative;
 }
 
 .container {
@@ -36,7 +36,7 @@ html, body {
     display: flex;
 
     left: 15%;
-    top: 150px;
+    top: 30%;
 }
 
 /* Left-side */
@@ -87,12 +87,14 @@ html, body {
     left: 10%;
 
     text-align: center;
+    justify-content: center;
 }
 
 .contact_btn p {
     color: white;
     font-size: 26px;
     line-height: 40px;
+
 }
 
 /* Right-side */

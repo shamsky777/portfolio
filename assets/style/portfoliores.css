@@ -32,6 +32,39 @@
     }
 }
 
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 1024px;
+        height: 1366px;
+    }
+    nav {
+        width: 1024px;
+    }
+    ul {
+        left: 750px;
+    }
+    footer {
+        position: absolute;
+        width: 1024px;
+        top: 100%;
+    }
+    .right-side_c {
+        position: absolute;
+        left: 770px;
+    }
+    .portfolio-group {
+        left: 110px;
+        width: 800px;
+        height: 940px;
+    }
+    .projects {
+        grid-template-columns: repeat(2, minmax(186px, 1fr));
+        left: 10px;
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 1024px) and (max-height: 1280px){
     .container {
         width: 1024px;
@@ -91,6 +124,29 @@
     .right-side_c {
         position: absolute;
         left: 660px;
+    }
+}
+
+@media screen and (max-width: 834px) and (max-height: 1194px) {
+    .container {
+        width: 834px;
+        height: 1194px;
+    }
+    nav {
+        width: 834px;
+    }
+    ul {
+        left: 550px;
+    }
+    footer {
+        width: 834px;
+    }
+    .portfolio-group {
+        left: 20px;
+    }
+    .right-side_c {
+        position: absolute;
+        left: 600px;
     }
 }
 
@@ -173,12 +229,14 @@
         height: 1500px;
     }
     nav {
-        position: absolute;
+        position: fixed;
         width: 768px;
-        
     }
-    li {
-        left: -320px;
+    .left-side_logo-name {
+        position: fixed;
+    }
+    ul {
+        left: 300px;
     }
     input[type="checkbox"], .mask {
         visibility: visible;
@@ -191,6 +249,18 @@
     .right-side_c {
         position: absolute;
         left: 500px;
+    }
+    .project1 {
+        width: 400px;
+    }
+    .project2 {
+        width: 400px;
+    }
+    .project3 {
+        width: 400px;
+    }
+    .project4 {
+        width: 400px;
     }
 }
 
@@ -222,6 +292,16 @@
     .right-side_c {
         position: absolute;
         left: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) and (max-height: 960px) {
+    .container {
+        width: 600px;
+        height: 960px;
+    }
+    ul {
+        left: 200px;
     }
 }
 
@@ -269,7 +349,7 @@
         width: 430px;
     }
     ul {
-        left: 100px;
+        left: 115px;
     }
     .portfolio-group {
         left: 40px;
@@ -352,7 +432,7 @@
     }
     .portfolio-group {
         width: 300px;
-        left: 50px;
+        left: 60px;
     }
     .projects {
         width: 300px;
@@ -400,6 +480,26 @@
     }
 }
 
+@media screen and (max-width: 393px) and (max-height: 851px) {
+    .container {
+        width: 393px;
+        height: 851px;
+
+    }
+    nav {
+        position: fixed;
+        width: 393px;
+    }
+    input[type="checkbox"], .mask {
+        visibility: visible;
+        left: 70%;
+    }
+    footer {
+        position: absolute;
+        width: 393px;
+    }
+}
+
 @media screen and (max-width: 390px) and (max-height: 1280px){
     .container {
         width: 390px;
@@ -439,7 +539,7 @@
         left: 70%;
     }
     .portfolio-group {
-        left: 30px;
+        left: 40px;
     }
     .projects {
         position: absolute;
@@ -477,5 +577,57 @@
     }
     .right-side_c {
         left: 200px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container {
+        width: 320px;
+        height: 1500px;
+    }
+    nav {
+        position: fixed;
+        width: 320px;
+    }
+    input[type="checkbox"], .mask {
+        visibility: visible;
+        left: 60%;
+    }
+    ul {
+        left: 50px;
+    }
+    footer {
+        position: absolute;
+        width: 320px;
+    }
+    .portfolio-group {
+        width: 250px;
+    }
+    .projects {
+        width: 250px;
+    }
+    .project1 {
+        width: 250px;
+    }
+    .project1 img {
+        width: 250px;
+    }
+    .project2 {
+        width: 250px;
+    }
+    .project2 img {
+        width: 250px;
+    }
+    .project3 {
+        width: 250px;
+    }
+    .project3 img {
+        width: 250px;
+    }
+    .project4 {
+        width: 250px;
+    }
+    .project4 img {
+        width: 250px;
     }
 }

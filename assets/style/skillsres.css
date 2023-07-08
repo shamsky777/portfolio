@@ -20,13 +20,45 @@
     footer {
         position: absolute;
         width: 1280px;
+        top: 100%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 1024px;
+        height: 1366px;
+    }
+    nav {
+        width: 1024px;
+    }
+    ul {
+        left: 750px;
+    }
+    .skillspage {
+        width: 850px;
+        left: 8%;
+    }
+    .right-side_skills-page {
+        width: 300px;
+        left: 360px;
+    }
+    footer {
+        position: absolute;
+        width: 1024px;
+        top: 100%;
+    }
+    .right-side_c {
+        position: absolute;
+        left: 770px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) and (max-height: 1280px){
     .container {
         width: 1024px;
-        height: 720px;
+        height: 1280px;
     }
     nav {
         position: absolute;
@@ -109,6 +141,29 @@
     }
 }
 
+@media screen and (max-width: 834px) and (max-height: 1194px) {
+    .container {
+        width: 834px;
+        height: 1194px;
+    }
+    nav {
+        width: 834px;
+    }
+    ul {
+        left: 550px;
+    }
+    .skillspage {
+        left: 150px;
+    }
+    .right-side_c {
+        position: absolute;
+        left: 600px;
+    }
+    footer {
+        width: 834px;
+    }
+}
+
 @media screen and (max-width: 820px) and (max-height: 1280px) {
     .container {
         width: 820px;
@@ -124,6 +179,7 @@
     .skillspage {
         position: absolute;
         left: 100px;
+        top: 30%;
     }
     footer {
         position: absolute;
@@ -138,7 +194,7 @@
 @media screen and (max-width: 768px) and (max-height: 1280px){
     .container {
         width: 768px;
-        height: 1280px;
+        height: 1024px;
     }
     nav {
         position: fixed;
@@ -169,6 +225,8 @@
         left: 520px;
     }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .container {
@@ -278,6 +336,10 @@
         position: fixed;
         width: 430px;
     }
+    input[type="checkbox"], .mask {
+        visibility: visible;
+        left: 75%;
+    }
     ul {
         left: 100px;
     }
@@ -310,7 +372,7 @@
 @media screen and (max-width: 415px) and (max-height: 1280px){
     .container {
         width: 415px;
-        height: 915px;
+        height: 846px;
     }
     nav {
         position: fixed;
@@ -362,6 +424,38 @@
     }
 }
 
+@media screen and (max-width: 414px) and (max-height: 736px) {
+    .container {
+        width: 414px;
+        height: 736px;
+    }
+    .skillspage {
+        position: absolute;
+        top: 0px;
+        height: 600px;
+    }
+    .right-side_skills-page {
+        height: 400px;
+        top: 180px;
+    }
+}
+
+@media screen and (max-width: 393px) and (max-height: 851px) {
+    .container {
+        width: 393px;
+        height: 851px;
+
+    }
+    nav {
+        position: fixed;
+        width: 393px;
+    }
+    footer {
+        position: absolute;
+        width: 393px;
+    }
+}
+
 @media screen and (max-width: 390px) and (max-height: 1280px){
     .container {
         width: 390px;
@@ -389,6 +483,20 @@
     }
 }
 
+@media screen and (max-width: 384px) {
+    .container {
+        width: 385px;
+        height: 640px;
+    }
+    nav {
+        position: fixed;
+        width: 384px;
+    }
+    ul {
+        left: 83px;
+    }
+}
+
 @media screen and (max-width: 375px) and (max-height: 1280px) {
     .container {
         width: 375px;
@@ -398,6 +506,9 @@
         position: fixed;
         width: 375px;
     }
+    ul {
+        left: 80px;
+    }
     .left-side_logo-name {
         position: fixed;
         top: 35px;
@@ -406,7 +517,7 @@
     .skillspage {
         position: absolute;
         left: 15px;
-        top: 100px;
+        top: 150px;
     }
     footer {
         position: absolute;
@@ -416,6 +527,17 @@
     .right-side_c {
         position: absolute;
         left: 190px;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    .container {
+        width: 375px;
+        height: 375px;
+    }
+    .skillspage {
+        position: absolute;
+        top: 0px;
     }
 }
 
@@ -447,5 +569,100 @@
     .right-side_c {
         position: absolute;
         left: 180px;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 640px) {
+    .container {
+        width: 360px;
+        height: 640px;
+    }
+    .right-side_skills-page {
+        height: 400px;
+    }
+    .skillspage {
+        height: 400px;
+        top: 80px;
+    }
+    footer {
+        position: absolute;
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container {
+        width: 320px;
+        height: 568px;
+    }
+    nav {
+        position: fixed;
+        width: 320px;
+    }
+    input[type="checkbox"], .mask {
+        visibility: visible;
+        left: 65%;
+    }
+    ul {
+        left: 50px;
+    }
+    footer {
+        position: absolute;
+        width: 320px;
+    }
+    .skillspage {
+        position: absolute;
+        top: 0px;
+        height: 600px;
+        width: 300px;
+    }
+    .right-side_skills-page {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 120px;
+    }
+    .html-skills {
+        width: 300px;
+    }
+    .html-skills_out {
+        width: 280px;
+    }
+    .html-skills span {
+        left: 85%;
+    }
+    .cssl-skills {
+        width: 300px;
+    }
+    .css-skills span {
+        left: 75%;
+    }
+    .css-skills_out {
+        width: 280px;
+    }
+    .js-skills span {
+        left: 85%;
+    }
+    .js-skills {
+        width: 300px;
+    }
+    .js-skills_out {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container {
+        width: 320px;
+        height: 568px;
+    }
+    nav {
+        position: fixed;
+        width: 320px;
+    }
+    
+    footer {
+        position: absolute;
+        width: 320px;
     }
 }
