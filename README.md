@@ -3,7 +3,8 @@ https://shama.begi.dev/
 
 # Personal portfolio
 
-![Screenshot 2023-07-07 191304](https://github.com/shamsky777/portfolio/assets/111402885/a43df945-5b95-4a7b-a916-4eecb12d3be1)
+![Screenshot 2023-07-15 170806](https://github.com/shamsky777/portfolio/assets/111402885/6aba11c7-c4a8-4e23-bf8a-845988eba9b9)
+
 
 # Mobile Responsive LIST (Only Vertical Resolution)
 1: Galaxy Note 20 Ultra <br>
